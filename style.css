@@ -419,7 +419,7 @@ section .title::after{
 }
 
 .teams .title::after{
-    content: "who with me";
+    content: "with me";
     background: #333333;
 }
 
@@ -699,7 +699,7 @@ footer span{
     }
     .home .home-content a{
         display: inline-block;
-        background: #333333;
+        background: #076f89;
         color: #ffff;
         padding: 9px 35px;
         font-size: 25px;
