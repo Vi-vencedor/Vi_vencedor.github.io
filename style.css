@@ -624,17 +624,18 @@ section .title::after{
 /* footer styling */
 footer{
     padding: 25px 20px;
-    background: #696969;
+    background: #333333;
 }
 
 footer a{
     font-style: none;
-    color: #fff;
+    color: #076f89;
 }
 
 footer span{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff;
 }
 
 .scroll-up-btn{
