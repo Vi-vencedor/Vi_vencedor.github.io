@@ -25,7 +25,7 @@ html{
 
 .nav.sticky{
     padding: 15px 0;
-    background: #696969;
+    background: #076f89;
 }
 
 .nav .logo a{
@@ -75,7 +75,7 @@ html{
 }
 
 .nav .menu li a:hover{
-    color: #474343;
+    color: #076f89;
 }
 
 .nav.sticky .menu li a{
@@ -102,7 +102,7 @@ html{
 /* home styling */
 .home{
     display: flex;
-    background: url(images/Profile\ bck.jpg) no-repeat center;
+    background: url(images/bgd.jpg) no-repeat center;
     height: 100vh;
     color: #ffffff;
     min-height: 500px;
@@ -115,26 +115,26 @@ html{
 .home .home-content .text-1{
     font-size: 27px;
     font-weight: 500;
-    color: #111;
+    color: #fff;
 }
 
 .home .home-content .text-2{
     font-size: 70px;
     margin-left: -3px;
     font-weight: 600;
-    color: #333333;
+    color: #fff;
 }
 
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
     font-weight: 500;
-    color: #111;
+    color: #fff;
 }
 
 .home .home-content a{
     display: inline-block;
-    background: grey;
+    background: #076f89;
     color: #ffff;
     padding: 12px 35px;
     font-size: 25px;
@@ -144,13 +144,13 @@ html{
 }
 
 .home .home-content a:hover{
-    color: #111;
+    color: #fff;
     background: none;
-    border: 2px solid #111;
+    border: 2px solid #076f89;
 }
 
 .home .home-content .text-3 span{
-    color: grey;
+    color: #076f89;
     font-weight: 500;
 }
 
@@ -181,8 +181,8 @@ section .title{
     text-align:center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 80px;
+    padding-bottom: 30px;
 }
 
 section .title::before{
@@ -198,7 +198,7 @@ section .title::before{
 
 section .title::after{
     font-size: 20px;
-    color: grey;
+    color: #076f89;
     bottom: -12px;
     left: 50%;
     position: absolute;
@@ -243,7 +243,7 @@ section .title::after{
 }
 
 .about .about-content .right .text span{
-    color: grey;
+    color: #076f89;
 }
 
 .about .about-content .right p{
@@ -253,18 +253,18 @@ section .title::after{
 
 .about .about-content .right a{
     display: inline-block;
-    background: grey;
+    background: #076f89;
     color: #ffff;
     padding: 10px 30px;
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
     border-radius: 10px;
-    border: 2px solid grey;
+    border: 2px solid #076f89;
 }
 
 .about .about-content .right a:hover{
-    color: grey;
+    color: #111;
     background: none;
 }
 
@@ -275,6 +275,7 @@ section .title::after{
     color: #ffffff;
 }
 
+
 .services .title::before,
 .teams .title::before{
    background: #ffffff;
@@ -282,9 +283,9 @@ section .title::after{
 
 .services .title::after,
 .teams .title::after{
-    content: "what I provide";
+    content: "what I offer";
     background: #696969;
-    color: #111;
+    color: #fff;
 }
 
 .services .services-content .card{
@@ -298,8 +299,8 @@ section .title::after{
 }
 
 .services .services-content .card:hover{
-    background: #b4b4b4;
-    color: #111; 
+    background: #076f89;
+    color: #fff; 
 }
 
 .services .services-content .card:hover i{
@@ -317,7 +318,7 @@ section .title::after{
 
 .services .services-content .card i{
     font-size: 50px;
-    color: #696969;
+    color: #076f89;
 }
 
 .services .services-content .card .text{
@@ -338,6 +339,7 @@ section .title::after{
 .skills .skill-content .left .text{
     font-size: 25px;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .skills .skill-content .left p{
@@ -346,7 +348,7 @@ section .title::after{
 
 .skills .skill-content .left a{
     display: inline-block;
-    background: #696969;
+    background: #076f89;
     color: #ffff;
     padding: 10px 15px;
     font-size: 18px;
@@ -357,8 +359,8 @@ section .title::after{
 
 .skills .skill-content .left a:hover{
     background: none;
-    color: #696969;
-    border: 2px solid #696969;
+    color: #111;
+    border: 2px solid #076f89;
 }
 
 .skills .skill-content .right .bars{
@@ -388,7 +390,7 @@ section .title::after{
     content: "";
     position: absolute;
     height: 100%;
-    background: #696969;
+    background: #076f89;
     left: 0;
     top: 0;
 }
@@ -412,20 +414,26 @@ section .title::after{
 
 /* teams styling */
 
+.teams{
+    background: #333333;
+}
+
 .teams .title::after{
     content: "who with me";
+    background: #333333;
 }
 
 .teams .carousel .card{
-    background: #333333;
+    background: #696969;
+    color: #fff;
     border-radius: 6px;
     padding: 25px 35px;
     transition: al 0.3s ease;
 } 
 
 .teams .carousel .card:hover{
-    background: #b4b4b4;
-    color: #111;
+    background: #076f89;
+    color: #fff;
 }
 
 .teams .carousel .card img{
@@ -433,12 +441,12 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #696969;
+    border: 5px solid #076f89;
     transition: all 0.3s ease;
 }
 
 .teams .carousel .card:hover img{
-    border-color: #474343;
+    border-color: #fff;
 }
 
 .teams .carousel .card:hover .box{
@@ -471,7 +479,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #333333!important;
+    border: 2px solid #076f89!important;
     transition: all0.3s ease;
 }
 
@@ -482,7 +490,7 @@ section .title::after{
 
 .owl-dot.active,
 .owl-dot:hover{
-    background: #333333!important;
+    background: #076f89!important;
 }
 
 
@@ -493,7 +501,7 @@ section .title::after{
 .contact .title::after{
     content: "get in touch";
     background: #fff;
-    color: #111;
+    color: #076f89;
 }
 
 .contact{
@@ -539,7 +547,7 @@ section .title::after{
  
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #333333;
+    color: #076f89;
 }
 
 .contact .contact-content .info .head{
@@ -565,7 +573,7 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #076f89;
     border-radius: 6px;
     outline: none;
     padding: 0 20px;
@@ -601,8 +609,8 @@ section .title::after{
     font-size: 18px;
     font-weight: 200;
     border-radius: 10px;
-    border: 2px solid #3f3f3f;
-    background: #333333;
+    border: 2px solid #076f89;
+    background: #076f89;
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -610,7 +618,7 @@ section .title::after{
 
 .contact .right form .button button:hover{
     background: #fff;
-    color: #333333;
+    color: #111;
 }
 
 /* footer styling */
