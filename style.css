@@ -558,6 +558,11 @@ section .title::after{
     color: #333333;
 }
 
+.contact .contact-content .info .sub-title a{
+    text-decoration: none;
+    color: #111;
+}
+
 .contact .right form .fields{
     display: flex;
 }
@@ -600,25 +605,34 @@ section .title::after{
 
 .contact .right form .button{
     height: 45px;
-    width: 100%;
+    width: 170px;
 }
 
 .contact .right form .button button{
-    width: 170px;
+    width: 150px;
     height: 100%;
     font-size: 18px;
     font-weight: 200;
     border-radius: 10px;
     border: 2px solid #076f89;
     background: #076f89;
-    color: #fff;
     cursor: pointer;
+    color: #fff;
     transition: all 0.3s ease;
+}
+
+.contact .right form .button button a{
+    text-decoration: none;
+    color: #111;
 }
 
 .contact .right form .button button:hover{
     background: #fff;
     color: #111;
+}
+
+.contact .right form .button button a:hover{
+    color: #333333;
 }
 
 /* footer styling */
