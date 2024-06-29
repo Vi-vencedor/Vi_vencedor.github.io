@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
-.about, .services, .contact{
+.about, .services, .contact, .skills, .teams{
     font-family: sans-serif;
 }
 
@@ -102,7 +102,7 @@ html{
 /* home styling */
 .home{
     display: flex;
-    background: url(images/bgd.jpg) no-repeat center;
+    background: url(images/bgd2.jpg) no-repeat center;
     height: 100vh;
     color: #ffffff;
     min-height: 500px;
@@ -624,7 +624,7 @@ section .title::after{
 /* footer styling */
 footer{
     padding: 25px 20px;
-    background: #333333;
+    background:#333333;
 }
 
 footer a{
@@ -635,7 +635,8 @@ footer a{
 footer span{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#fff;
+    color: #fff;
+    text-transform: none;
 }
 
 .scroll-up-btn{
@@ -707,7 +708,7 @@ footer span{
         font-weight: 400;
         margin-top: 20px;
         border-radius: 10px;
-        border: 2px solid #333333;
+        border: 2px solid #076f89;
     }
 
     .max-width{
